@@ -5,7 +5,6 @@ export default function CurrencyConverter() {
     const [fromCurrency, setFromCurrency] = useState("USD")
     const [toCurrency, setToCurrency] = useState("INR")
     const [convertedAmount, setConvertedAmount] = useState(0)
-    // const[]=useState()
     function handleAmountToBeConvertedChange(event) {
         setAmountToBeConverted(event.target.value)
         setConvertedAmount(0)
